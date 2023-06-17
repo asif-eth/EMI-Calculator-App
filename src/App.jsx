@@ -4,8 +4,8 @@ import tenureData from "../src/utils/constants"
 import { useState } from "react";
 import { useEffect } from "react";
 import { numberWithCommas } from "./utils/config";
-import SliderInput from "./components/slider-input";
-import TextInput from "./components/text-input";
+import SliderInput from "./components/SliderInput";
+import TextInput from "./components/TextInput";
 
 const App = () => {
   const [cost, setCost] = useState();
